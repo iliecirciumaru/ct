@@ -1941,49 +1941,42 @@ h1.widget-title {
 
 .biglistmanycolumns{
 	-moz-column-count: 3;
--webkit-column-count: 3;
-column-count: 3;
--moz-column-gap: 2em;
--webkit-column-gap: 2em;
-column-gap: 2em;
-list-style-type: square;
-	
-	
-	
+  -webkit-column-count: 3;
+  column-count: 3;
+  -moz-column-gap: 2em;
+  -webkit-column-gap: 2em;
+  column-gap: 2em;
+  list-style-type: square;
 }
+
 .biglistmanycolumns{
 	-moz-column-count: 5;
--webkit-column-count: 5;
-column-count: 5;
-	
+  -webkit-column-count: 5;
+  column-count: 5;
 }
 
 ul.SeasonBloks{
 	padding: 0;
-list-style-type: none;
-display: table;
-width: 100%;
-margin: 36px 0 44px;
-line-height: 24px;
-	
-	
-	
+  list-style-type: none;
+  display: table;
+  width: 100%;
+  margin: 36px 0 44px;
+  line-height: 24px;
 }
 
 ul.SeasonBloks li a{
-display: block;
-width: 100%;
-padding: 8px 16px;
-color: #fff;
-text-decoration: none;
-box-sizing: border-box;	
+  display: block;
+  width: 100%;
+  padding: 8px 16px;
+  color: #fff;
+  text-decoration: none;
+  box-sizing: border-box;	
 }
 
 
 
 ul.SeasonBloks li.Hot{
 	background: url(../images/back_hot.gif) #ff2c00;
-	
 }
 
 
@@ -1995,4 +1988,11 @@ ul.SeasonBloks li.Hot{
 .woocommerce-page .woocommerce-info:before,
 .woocommerce-page .woocommerce-message:before {
   padding-top: 0 !important;
+}
+
+/* ilia things */
+.site-footer .footer-social-icons img {
+  width: 25px; 
+  height: 25px;
+  margin-right: 10px;
 }
