@@ -14,24 +14,17 @@ get_header();?>
 
 
 				
-		<?php if ((has_post_thumbnail())) : ?>
-		<div class="header-title col-md-12">
-		<div class="single-featured-image">
-			<?php the_post_thumbnail()  ?>
-			<h1 class="image-entry-title col-md-12">
-				<?php the_title(); ?>
-			</h1>
+	<?php if ((has_post_thumbnail())) : ?>
+		<div class="page-header-title">
+			<div class="page-single-featured-image">
+				<?php the_post_thumbnail()  ?>
+				<h1 class="image-entry-title">
+					<?php the_title(); ?>
+				</h1>
+			</div>
 		</div>
-		</div>
-	<?php else : ?>
-	
-		
-			
 	<?php endif; ?>
-	
-	
-	
-	
+
 	<?php
 get_sidebar('left') ?>
 

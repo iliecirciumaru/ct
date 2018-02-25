@@ -1,0 +1,17 @@
+/* custom addition to css */
+
+/* ilia things */
+.site-footer .footer-social-icons img {
+  width: 25px; 
+  height: 25px;
+  margin-right: 10px;
+}
+
+.page-header-title {
+  position: relative;
+}
+
+.page-header-title .page-single-featured-image img {
+  object-fit: cover;
+  min-height: 200px;
+}
