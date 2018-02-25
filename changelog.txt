@@ -1,0 +1,25 @@
+CHANGELOG
+---------
+
+Version 1.0.0.1
+
+	i) Fixed Bug related to Display of Gallery.
+	ii) Removed Codekit Config file.
+
+Version 1.0
+
+	i) Fixed PHP Notice Bug
+	ii) Added Defaults for Carousel and Social icons.
+	iii) Fixed Sidebar Display Bug on Mobile Devices.
+	iv) Removed Tooltipster, Waypoints & Tinynav
+	v) Minor Changes to Design
+	vi) Minor Changes to Options.php (Theme Options)
+	vii) Updated Screenshot, and Stated license for images used.
+
+Version 0.92
+
+	i) Minor bug Fixes Before Release.
+
+Version 0.9
+
+	i) Initial Release.
