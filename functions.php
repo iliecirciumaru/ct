@@ -208,6 +208,9 @@ function times_scripts() {
 	// Load custom css
 	wp_enqueue_style('times-theme-custom-css', get_template_directory_uri()."/assets/css/custom.css");
 
+	// Load custom css
+	wp_enqueue_style('times-theme-cities', get_template_directory_uri()."/assets/css/cities.css");
+
 	
 	//Load Bootstrap JS
 	wp_enqueue_script('bootstrap-js', get_template_directory_uri()."/assets/frameworks/bootstrap/js/bootstrap.min.js", array('jquery'));
