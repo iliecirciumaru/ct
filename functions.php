@@ -182,6 +182,7 @@ add_action( 'widgets_init', 'times_widgets_init' );
  * Enqueue scripts and styles.
  */
 function times_scripts() {
+	$version = null;
 
 	//Load Default Stylesheet
 	wp_enqueue_style( 'times-style', get_stylesheet_uri() );
@@ -206,7 +207,10 @@ function times_scripts() {
 	wp_enqueue_style('times-theme-style', get_template_directory_uri()."/assets/css/theme.css");
 
 	// Load custom css
-	wp_enqueue_style('times-theme-custom-css', get_template_directory_uri()."/assets/css/custom.css");
+	wp_enqueue_style('times-theme-custom-css', get_template_directory_uri()."/assets/css/custom.css", array(), $version);
+
+	// Load custom css
+	wp_enqueue_style('times-theme-cities', get_template_directory_uri()."/assets/css/cities.css", array(), $version);
 
 	
 	//Load Bootstrap JS
@@ -268,13 +272,7 @@ function times_initialize_header() {
 		
 		
 		
-		<?php
-		endif; ?>
-			jQuery(document).ready(function() {
-				if( jQuery(window).width() < 992 )
-						 	jQuery('#primary, #primary-mono').insertBefore('#secondary-2');
-			});
-			
+		<?php endif; ?>
 	<?php else : ?>
 		jQuery(document).ready(function(){
 						jQuery('.owlcarousel').owlCarousel( {
@@ -294,6 +292,12 @@ function times_initialize_header() {
 					});
 			
 	<?php endif;
+
+
+	// jQuery(document).ready(function() {
+	// if( jQuery(window).width() < 992 )
+	// 			 jQuery('#primary, #primary-mono').insertBefore('#secondary-2');
+	// });
 	
 	echo "</script>";
 	//Java Script Ends

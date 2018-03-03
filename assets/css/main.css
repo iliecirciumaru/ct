@@ -1102,48 +1102,40 @@ padding: 2px;}
   padding-top: 0px;
 }
 
-#secondary,
-#secondary-2 {
+#secondary {
  /* margin-top: -20px;*/
  /* padding: 6px 0 0 10px;*/
   background: #ffffff;
   font-size: 13px;
  
-}*/
-#secondary .widget,
-#secondary-2 .widget {
+}
+#secondary .widget {
   color: #3a3a3a;
 }
-#secondary .widget > ul,
-#secondary-2 .widget > ul {
+#secondary .widget > ul {
   margin-left: 10px;
    
 }
-#secondary .widget > ul li,
-#secondary-2 .widget > ul li {
+#secondary .widget > ul li {
   list-style: none;
   padding-bottom: 2px;
   padding-top: 2px;
 }
-#secondary .widget > ul li:last-child,
-#secondary-2 .widget > ul li:last-child {
+#secondary .widget > ul li:last-child {
   border-bottom: none;
 }
-#secondary .widget > ul li:before,
-#secondary-2 .widget > ul li:before {
+#secondary .widget > ul li:before {
   content: "\f105";
   display: inline;
   float: left;
   font-family: "FontAwesome";
   margin-right: 6px;
 }
-#secondary h1.widget-title,
-#secondary-2 h1.widget-title {
+#secondary h1.widget-title {
   padding: 5px 0;
   background: #3a8cbb;
 }
-#secondary h1.widget-title span,
-#secondary-2 h1.widget-title span {
+#secondary h1.widget-title span {
   /*font-size: 18px;
   
   
@@ -1169,23 +1161,19 @@ margin-bottom: 20px;
 	font-family: Roboto,sans-serif;
 }
 
-#secondary a,
-#secondary-2 a {
+#secondary a {
   color: #137da3;
   font-weight: 600;
   font-size: 14px;
 }
-#secondary a:hover,
-#secondary-2 a:hover {
+#secondary a:hover {
   color: #FB770B;
 }
-#secondary ul,
-#secondary-2 ul {
+#secondary ul {
   margin-left: 20px;
  /* list-style-type: none;*/
 }
-#secondary ul ul,
-#secondary-2 ul ul {
+#secondary ul ul {
  /* margin-left: 5px;*/
  color: #FB770B;
  padding-top: 3px;
@@ -1216,13 +1204,11 @@ margin-bottom: 20px;
 }
 
 
-#secondary .widget_search label,
-#secondary-2 .widget_search label {
+#secondary .widget_search label {
   width: 95%;
   margin-top: 5px;
 }
-#secondary .widget_search label input[type=search],
-#secondary-2 .widget_search label input[type=search] {
+#secondary .widget_search label input[type=search] {
   width: 100%;
   border-radius: 0;
 }
@@ -1268,52 +1254,7 @@ margin-bottom: 20px;
 #secondary .social-icons img:hover {
   transform: scale(1.1);
 }
-#secondary-2 {
-  /*padding: 6px 10px 0 0;*/
-  background: #fcfcfc;
-  padding-top: 0px;
-  /*margin-top: 10px;*/
-  padding-left: 0px;
-  box-shadow: 0 1px 2px #aaa;
-  /*
-	.widget_tag_cloud {
-		a {
-			background: #333;
-			border: dotted 1px #eee;
-			color: #eee;
-			padding: 5px;
-			font-size: 15px;
-			display: inline-block;
-			margin: 2px;
-		}	
-	}
-*/
-}
-#secondary-2 h1.widget-title {
- /* background: #33363A;
-  margin-right: -10px;
-  margin-left: -9px;*/
-  padding-left: 5px;
-  box-shadow: -1px 1px 2px #aaaaaa;
-}
-#secondary-2 h1.widget-title span {
- /* border-left: dashed 2px;
-  border-color: #969ca3;
-  color: #eee;*/
-  text-align: left;
-}
-#secondary-2 h1.widget-title:first-child {
-  margin-top: 0px;
-    margin-left: -9px;
-	margin-right: -15px;
-}
-#secondary-2 .widget_search label {
-  margin-left: 5%;
-}
-#secondary-2 .widget > ul,
-#secondary-2 .widget > div {
-  padding: 8px;
-}
+
 article table {
   border: solid 1px #eee;
 }
@@ -1933,8 +1874,7 @@ article h3 {
 }
 /*--------------- responsive cheats ----------- */
 @media screen and (max-width: 991px) {
-  #secondary,
-  #secondary-2 {
+  #secondary {
     padding: 0px;
     /*
 h1.widget-title {
@@ -1943,16 +1883,7 @@ h1.widget-title {
 		}
 */
   }
-  #secondary-2 {
-    /*
-h1.widget-title {	
-			padding-right: 5px;
-			span{
-				border-right: dashed 2px lighten(#33363A,40%);;
-				}
-		}
-*/
-  }
+
   #secondary {
     /*
 h1.widget-title {	

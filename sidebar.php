@@ -6,7 +6,7 @@
  */
  global $option_setting;
 ?>
-	<div id="secondary" class="widget-area col-md-2 col-sm-6" role="complementary">
+	<div id="secondary" class="widget-area col-md-2" role="complementary">
 	<?php 
 		if(isset($option_setting['enable-social-icons'])) :
 			if ($option_setting['enable-social-icons']) :

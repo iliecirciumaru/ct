@@ -6,7 +6,7 @@
  */
 ?>
 
-	<div id="secondary-2" class="widget-area col-md-3 col-sm-6" role="complementary">
+	<div id="secondary-2" class="widget-area col-md-3 sm-12" role="complementary">
 		
 		<?php if ( ! dynamic_sidebar( 'sidebar-left' ) ) : ?>
 

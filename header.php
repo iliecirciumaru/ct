@@ -56,7 +56,7 @@
   ga('send', 'pageview');
 
 </script>
-<script type="text/javascript" src="//api.skyscanner.net/api.ashx?key="></script>
+<!-- <script type="text/javascript" src="//api.skyscanner.net/api.ashx?key="></script>
 <script type="text/javascript">
    skyscanner.load("snippets","2");
    function main(){
@@ -71,7 +71,7 @@
        snippet.draw(document.getElementById("snippet_searchpanel"));
    }
    skyscanner.setOnLoadCallback(main);
-</script>
+</script> -->
 <?php global $option_setting; ?>
 <div id="page" class="hfeed site">
 <div id="top-bar">
