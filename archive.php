@@ -12,11 +12,13 @@ get_header(); ?>
 	
 	
 		
-	
-	<div class="header-title col-md-12">
-	<div class="single-featured-image">
-			<?php if (function_exists('z_taxonomy_image')) z_taxonomy_image(); ?>
-		<h1 class="image-entry-title col-md-12"><?php
+	<div class="page-header-title"> 
+<div class="page-single-featured-image"> 
+<?php if (function_exists('z_taxonomy_image')) z_taxonomy_image(); ?> 
+<h1 class="image-entry-title">
+
+
+<?php
 						if ( is_category() ) :
 							single_cat_title();
 

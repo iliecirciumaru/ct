@@ -10,7 +10,7 @@ get_sidebar('left'); ?>
 		<main id="main" class="site-main" role="main">
 		<div class="entry-content">
 
-		<h4>Cicerone-trip - die weltweit beste lebende Reise-Enzyklopadie</h4> 
+		<h1><div id="home_h1">Cicerone-trip - die weltweit beste lebende Reise-Enzyklopadie</div></h1> 
 <p>Warum das Beste? Lesen Sie unsere Seiten und uberzeugen Sie sich selbst. 
 Hier erfahren Sie mehr uber Lander, Resorts und Hotels aus den ersten Quellen.
 Warum lebende? Denn hier kommt jeden Tag etwas Neues hinzu - echte Tourismusprofis, die alles uber die Feinheiten des Tourismus wissen und personliche Erfahrungen grosszugig teilen.

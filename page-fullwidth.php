@@ -8,10 +8,18 @@
  */
 
 get_header(); ?>
-	<div class="header-title col-md-12">
-		<?php the_title(); ?>
-	</div>
-	<div id="primary-mono" class="content-area col-md-12">
+	<?php if ((has_post_thumbnail())) : ?>
+		<div class="page-header-title">
+			<div class="page-single-featured-image">
+				<?php the_post_thumbnail()  ?>
+				<h1 class="image-entry-title">
+					<?php the_title(); ?>
+				</h1>
+			</div>
+		</div>
+	<?php endif; ?>
+	
+<div id="primary-mono" class="content-area col-md-12">
 		<main id="main" class="site-main" role="main">
 
 			<?php while ( have_posts() ) : the_post(); ?>

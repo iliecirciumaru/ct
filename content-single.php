@@ -5,24 +5,26 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	
 	<?php if ((has_post_thumbnail())) : ?>
-		<div class="single-featured-image">
-			<?php the_post_thumbnail()  ?>
-			<h1 class="image-entry-title-content col-md-12">
-				<?php the_title(); ?>
-			</h1>
-		</div>
-	<?php else : ?>
-		<h1 class="entry-title col-md-12">
-				<?php the_title(); ?>
-			</h1>
-	<?php endif; ?>
-	<header class="entry-header">
+		<div class="page-header-title">
+			
+<div class="page-single-featured-image">
+<h1 class="entry-title col-md-12">
+					<?php the_title(); ?>
+				</h1>	
+<header class="entry-header">
 		<div class="entry-meta">
 			<?php times_posted_on(); ?>
 		</div><!-- .entry-meta -->
-	</header><!-- .entry-header -->
+	</header><!-- .entry-header -->			
+<?php the_post_thumbnail()  ?>
+				
+			</div>
+		</div>
+	<?php endif; ?>
+	
+
+	
 	
 	
 	<div class="entry-content">
@@ -48,7 +50,7 @@
 				if ( '' != $tag_list ) {
 					$meta_text = __( '<i class="fa fa-tags"></i> %2$s <i class="fa fa-link"></i> <a href="%3$s" rel="bookmark">Ссылка</a>', 'times' );
 				} else {
-					$meta_text = __( '<i class="fa fa-link"></i> <a href="%3$s" rel="bookmark">Ссылка</a>', 'times' );
+					$meta_text = __( '<i class="fa fa-link"></i> <a href="%3$s" rel="bookmark">Link</a>', 'times' );
 				}
 
 			} else {
@@ -56,7 +58,7 @@
 				if ( '' != $tag_list ) {
 					$meta_text = __( '<i class="fa fa-folder-open"></i> %1$s <i class="fa fa-tags"></i> %2$s <i class="fa fa-link"></i> <a href="%3$s" rel="bookmark">Ссылка</a>', 'times' );
 				} else {
-					$meta_text = __( '<i class="fa fa-folder-open"></i> %1$s <i class="fa fa-link"></i> <a href="%3$s" rel="bookmark">Ссылка</a>', 'times' );
+					$meta_text = __( '<i class="fa fa-folder-open"></i> %1$s <i class="fa fa-link"></i> <a href="%3$s" rel="bookmark">Link</a>', 'times' );
 				}
 
 			} // end check for categories on this blog
