@@ -44,5 +44,4 @@
 			) );
 		?>
 	</div><!-- .entry-content -->
-	<?php edit_post_link( __( '<i class="fa fa-edit"></i> Редактировать', 'times' ), '<footer class="entry-footer"><span class="edit-link">', '</span></footer>' ); ?>
 </article><!-- #post-## -->
