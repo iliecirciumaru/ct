@@ -272,3 +272,22 @@ h6, .h6 {
   text-align: right;
   color: #c1c1c1;
 }
+
+.entry-content .content-table {
+  font-size: 14px;
+  line-height: 1.5em;
+  list-style-position: inside;
+  font-family: 'Roboto', sans-serif;
+  color: #2193d3;
+}
+
+.entry-content .content-table-header {
+  margin: 5px 0;
+  text-align: left;
+  font-weight: normal;
+  color: #2193d3;
+}
+
+.entry-content .content-table-3 {
+  padding: 0 0 0 20px;
+}
