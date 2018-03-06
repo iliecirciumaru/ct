@@ -20,7 +20,6 @@
   
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 
-<meta name="B-verify" content="6d44b26dc6aa4793cbb64f6e609b59c55ff931ec" />
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title><?php wp_title( '|', true, 'right' ); ?></title>
@@ -31,21 +30,6 @@
 </head>
 <body <?php body_class(); ?>>
 
-<meta name="verify-admitad" content="7711bbed3a" />
-<meta name="verification" content="9d956507b4c207c4e97d56e4ca428036" />
-<!-- Begin TradeTracker SuperTag Code -->
-<script type="text/javascript">
-
-    var _TradeTrackerTagOptions = {
-        t: 'a',
-        s: '296916',
-        chk: 'bc2b2f7a372d720c680f8566dcdb77b5',
-        overrideOptions: {}
-    };
-
-    (function() {var tt = document.createElement('script'), s = document.getElementsByTagName('script')[0]; tt.setAttribute('type', 'text/javascript'); tt.setAttribute('src', (document.location.protocol == 'https:' ? 'https' : 'http') + '://tm.tradetracker.net/tag?t=' + _TradeTrackerTagOptions.t + '&amp;s=' + _TradeTrackerTagOptions.s + '&amp;chk=' + _TradeTrackerTagOptions.chk); s.parentNode.insertBefore(tt, s);})();
-</script>
-<!-- End TradeTracker SuperTag Code -->
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -56,22 +40,6 @@
   ga('send', 'pageview');
 
 </script>
-<!-- <script type="text/javascript" src="//api.skyscanner.net/api.ashx?key="></script>
-<script type="text/javascript">
-   skyscanner.load("snippets","2");
-   function main(){
-       var snippet = new skyscanner.snippets.SearchPanelControl();
-       snippet.setShape("box400x400");
-       snippet.setCulture("de-DE");
-       snippet.setCurrency("EUR");
-       snippet.setMarket("DE");
-       snippet.setColourScheme("classicbluelight");
-       snippet.setProduct("flights","1");
-
-       snippet.draw(document.getElementById("snippet_searchpanel"));
-   }
-   skyscanner.setOnLoadCallback(main);
-</script> -->
 <?php global $option_setting; ?>
 <div id="page" class="hfeed site">
 <div id="top-bar">
