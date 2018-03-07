@@ -39,17 +39,24 @@ jQuery('.showcase').fadeOut('fast')
 			jQuery('.owl-theme .owl-controls .owl-buttons').css('display','none'); 
 		});
 	
+	var searchForm = jQuery('.search-form-top');
+	var searchFormInput = jQuery('.search-form-top input[type=text]');
 	jQuery('.top-right-search').click(function(){
-		jQuery('.search-form-top input[type=text]').fadeIn().css({
-			width   : "240px"
+		
+		searchForm.css({"display":"block"});
+		searchFormInput.fadeIn().css({
+			width: "240px",
 		});
-		jQuery('.search-form-top input[type=text]').focus();
+		searchFormInput.focus();
 	});
 	
-	jQuery('.search-form-top input[type=text]').focusout(function(){
-		jQuery('.search-form-top input[type=text]').animate({
-			width   : "0px"
-		},100, function() { jQuery(this).hide()});
+	searchFormInput.focusout(function(){
+		searchFormInput.animate({
+			width: "0px"
+		}, 100, function() { 
+			jQuery(this).hide();
+			searchForm.css({"display":"none"});
+		});
 	});
 	
 	});//end ready
