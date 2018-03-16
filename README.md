@@ -59,3 +59,11 @@ Note: Images Visible in the Slider in Screenshot( which is not distributed with 
 	v) http://pixabay.com/en/motorbike-racing-motorcycle-race-438464/
 	vi) http://pixabay.com/en/emotions-man-happy-sad-face-adult-371238/
 	vii) http://pixabay.com/en/taxi-cab-traffic-cab-new-york-381233/
+
+
+
+
+======================
+* To generate bundle.css, execute following commands:
+1. npm install
+2. gulp -f ./assets/gulpfile.js 

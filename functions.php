@@ -183,6 +183,7 @@ add_action( 'widgets_init', 'times_widgets_init' );
  */
 function times_scripts() {
 	$version = null;
+	$env = "dev";
 
 	//Load Default Stylesheet
 	wp_enqueue_style( 'times-style', get_stylesheet_uri() );
@@ -195,24 +196,28 @@ function times_scripts() {
 	
 	//Load BxSlider CSS
 	//wp_enqueue_style('bxslider-style',get_template_directory_uri()."/assets/css/bxslider.css");
+
+	if ($env == "production") {
+		wp_enqueue_style('owl-style',get_template_directory_uri()."/assets/css/bundle.css", array(), $version);	
+	} else {
 	
-	//Load Owl Carousel Data
-	wp_enqueue_style('owl-style',get_template_directory_uri()."/assets/css/owl.carousel.css");
-	wp_enqueue_style('owl-skin',get_template_directory_uri()."/assets/css/owl.theme.css");
-	
-	//Load Theme Structure File. Contains Orientation of the Theme.
-	wp_enqueue_style('times-theme-structure', get_template_directory_uri()."/assets/css/main.css");
+		//Load Owl Carousel Data
+		wp_enqueue_style('owl-style',get_template_directory_uri()."/assets/css/owl.carousel.css");
+		wp_enqueue_style('owl-skin',get_template_directory_uri()."/assets/css/owl.theme.css");
+		
+		//Load Theme Structure File. Contains Orientation of the Theme.
+		wp_enqueue_style('times-theme-structure', get_template_directory_uri()."/assets/css/main.css");
 
-	//Load the File Containing Color/Font Information
-	wp_enqueue_style('times-theme-style', get_template_directory_uri()."/assets/css/theme.css");
+		//Load the File Containing Color/Font Information
+		wp_enqueue_style('times-theme-style', get_template_directory_uri()."/assets/css/theme.css");
 
-	// Load custom css
-	wp_enqueue_style('times-theme-custom-css', get_template_directory_uri()."/assets/css/custom.css", array(), $version);
+		// Load custom css
+		wp_enqueue_style('times-theme-custom-css', get_template_directory_uri()."/assets/css/custom.css", array(), $version);
 
-	// Load custom css
-	wp_enqueue_style('times-theme-cities', get_template_directory_uri()."/assets/css/cities.css", array(), $version);
+		// Load custom css
+		wp_enqueue_style('times-theme-cities', get_template_directory_uri()."/assets/css/cities.css", array(), $version);
 
-	
+	}
 	//Load Bootstrap JS
 	wp_enqueue_script('bootstrap-js', get_template_directory_uri()."/assets/frameworks/bootstrap/js/bootstrap.min.js", array('jquery'));
 
