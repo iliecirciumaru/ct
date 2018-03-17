@@ -295,7 +295,28 @@ h6, .h6 {
   padding: 0 0 0 20px;
 }
 
+/* feedback form styles */
+.feedback-page .wpcf7 label {
+  font-family: 'Lato', Arial, sans-serif;
+  font-weight: normal;
+}
 
-/* #top-bar .top-right-search {
-  display: none;
-} */
+.feedback-page .wpcf7 .form-control {
+  padding: 6px 12px;
+  font-family: 'Lato', Arial, sans-serif;
+  color: black;
+}
+
+.feedback-page .wpcf7-submit {
+  background-color: #3a8cbb;
+  color: #fff;
+  float: right;
+  font-size: 14px;
+  text-shadow: none;
+  box-shadow: none;
+}
+
+.feedback-page .wpcf7-submit:hover {
+  background-color: #FB770B;
+  box-shadow: none;
+}
