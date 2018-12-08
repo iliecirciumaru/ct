@@ -36,7 +36,7 @@
 			}
 		?>
 
-		<?php echo $content; ?>
+		<?php echo apply_filters('the_content', $content); ?>
 		<?php
 			wp_link_pages( array(
 				'before' => '<div class="page-links">' . __( 'Страницы:', 'times' ),
