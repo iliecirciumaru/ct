@@ -8,13 +8,6 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
-  (adsbygoogle = window.adsbygoogle || []).push({
-    google_ad_client: "ca-pub-3517152121591733",
-    enable_page_level_ads: true
-  });
-</script>
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   

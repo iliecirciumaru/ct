@@ -10,7 +10,7 @@ get_header(); ?>
 		
 		<div class="single-featured-image">
 			<img src="wp-content/uploads/2017/07/suchen.jpg" alt="">
-			<h1 class="image-entry-title col-md-12">
+			<h1 class="image-entry-title">
 				<?php printf( __( 'Suchergebnisse für: %s', 'times' ), '<span>' . get_search_query() . '</span>' ); ?>
 			</h1>
 		</div>
@@ -21,7 +21,7 @@ get_header(); ?>
 		
 		
 		
-		<h1 class="page-title"></h1>
+		
 	</div>
 	<?php get_sidebar('left'); ?>
 	<section id="primary" class="content-area col-md-12">

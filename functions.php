@@ -4,13 +4,35 @@
  *
  * @package Times
  */
-
 /**
  * Redux Framework
  */
 require get_template_directory() . '/assets/frameworks/redux/admin/admin-init.php';
 require get_template_directory() . '/options.php';
 
+// Add a custom user role
+  
+$result = add_role( 'anastasia', __(
+  
+'Anastasia' ),
+  
+array(
+  
+'read' => true, // true allows this capability
+'edit_posts' => true, // Allows user to edit their own posts
+'edit_pages' => true, // Allows user to edit pages
+'edit_others_posts' => true, // Allows user to edit others posts not just their own
+'create_posts' => true, // Allows user to create new posts
+'manage_categories' => true, // Allows user to manage post categories
+'publish_posts' => true, // Allows the user to publish, otherwise posts stays in draft mode
+'edit_themes' => true, // false denies this capability. User can’t edit your theme
+'install_plugins' => false, // User cant add new plugins
+'update_plugin' => false, // User can’t update any plugins
+'update_core' => false // user cant perform core updates
+  
+)
+  
+);
 
 if ( ! function_exists( 'times_setup' ) ) :
 /**
@@ -327,6 +349,7 @@ add_action('wp_head', 'times_initialize_header');
 /*
  * Pagination Function. Implements core paginate_links function.
  */
+
 function times_pagination() {
 	global $wp_query;
 	$big = 12345678;
@@ -414,3 +437,20 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+
+function my_mce_buttons_2($buttons)
+{
+    array_unshift($buttons, 'styleselect');
+    return $buttons;
+}
+add_filter('mce_buttons_2', 'my_mce_buttons_2');
+function my_mce_before_init($init_array)
+    {
+        // Now we add classes with title and separate them with;
+        $init_array['theme_advanced_styles'] = "Tag Line=tag-line;Button=custom-button";
+    return $init_array;
+}
+ 
+add_filter('tiny_mce_before_init', 'my_mce_before_init');
+

@@ -14,7 +14,7 @@
 		<?php
 			$content = get_the_content();
 
-			$pattern = "/<h(2|3)>(.*?)<\/h(?:2|3)>/";
+			$pattern = "/<h(2|3).*?>(.*?)<\/h(?:2|3).*?>/";
 			$matches = array();
 			preg_match_all($pattern, $content, $matches);
 

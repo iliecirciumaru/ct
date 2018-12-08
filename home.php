@@ -10,11 +10,10 @@ get_sidebar('left'); ?>
 		<main id="main" class="site-main" role="main">
 		<div class="entry-content">
 
-		<h1><div id="home_h1">Cicerone-trip - die weltweit beste lebende Reise-Enzyklopadie</div></h1> 
-<p>Warum das Beste? Lesen Sie unsere Seiten und uberzeugen Sie sich selbst. 
-Hier erfahren Sie mehr uber Lander, Resorts und Hotels aus den ersten Quellen.
-Warum lebende? Denn hier kommt jeden Tag etwas Neues hinzu - echte Tourismusprofis, die alles uber die Feinheiten des Tourismus wissen und personliche Erfahrungen grosszugig teilen.
-</p>
+		<h1><div id="home_h1">Cicerone-trip - die beste lebende Reise-Enzyklopadie</div></h1> 
+<p>Cicerone Trip ist ein lebendinger, standig aktualisierter und erganzter Reisefuhrer mit praktischen Informationen fur Touristen. Seine Autoren sind keine Redaktionen oder Journalisten. Die Autoren von "Cicerone Trip" sind Profis, die ihre Richtungen besser kennen als jeder andere.
+
+Auf unserer Website finden Sie alles uber Lander, Stadte, Hotels, Wandermoglichkeiten und etc. Die Webseite ist lebendig und entwickelt sich taglich, hier finden Sie die neuesten Nachrichten, die besten Ticketpreise und detaillierte Informationen zu Landern und Stadten.</p>
 
 
 			</div>

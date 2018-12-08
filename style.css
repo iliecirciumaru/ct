@@ -1,31 +1,8 @@
-/*
-Theme Name: Times
-Author: Rohit Tripathi
-Author URI: http://rohitink.com
-Theme URI: http://rohitink.com/2014/07/28/times-news-magazine-wordpress-theme
-Description: Times is a Very Rich, High Quality Media WordPress Theme, with support for WooCommerce and Built on Twitter's Bootstrap 3.0 Framework. This theme uses the Featured Images feature of WordPress to create a stunning layout for your site. Showcase your important articles, using our touch sensitive Carousel. The beautifully designed sidebars are a bonus. And Multiple Widget Area in the footer to showcase your other important stuff. And Yes, this theme is 100% responsive and Retina Ready. Times is Translation ready for use in your Local Language.
-Version: 10.0.0.1
-License: GNU General Public License
-License URI: license.txt
-Text Domain: times
-Domain Path: /languages/
-Tags: white, light, custom-background, two-columns, right-sidebar, responsive-layout, custom-menu, sticky-post, theme-options, threaded-comments, translation-ready, featured-images, photoblogging
-
-
-This theme, like WordPress, is licensed under the GPL.
-Use it to make something cool, have fun, and share what you've learned with others.
-
-Times is based on Underscores http://underscores.me/, (C) 2012-2014 Automattic, Inc.
-
-Resetting and rebuilding styles have been helped along thanks to the fine work of
-Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
-along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
-and Blueprint http://www.blueprintcss.org/
-*/
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
 1.0 - Reset
+	1.0.0 - Настя изменения
 2.0 - Typography
 3.0 - Elements
 4.0 - Forms
@@ -43,6 +20,20 @@ and Blueprint http://www.blueprintcss.org/
 11.0 - Infinite scroll
 12.0 - Media
 --------------------------------------------------------------*/
+/*--------------------------------------------------------------
+1.0.0- Настя Изменения
+--------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
 
 /*--------------------------------------------------------------
 1.0 - Reset
